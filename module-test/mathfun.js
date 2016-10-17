@@ -8,15 +8,15 @@ var maxTime = 1000;
 //IF input is odd, error
 //(call take random amount of time < 1s)
 
-var evenDoubler = function(v, callback) {
-    var waitTime = Math.floor(Math.random()*(maxTime+1));
-    if (v%2){
-        setTimeout(function() {
+var evenDoubler = function (v, callback) {
+    var waitTime = Math.floor(Math.random() * (maxTime + 1));
+    if (v % 2) {
+        setTimeout(function () {
             callback(new Error("Odd input"));
         }, waitTime);
     } else {
         setTimeout(function () {
-            callback(null, v*2, waitTime);
+            callback(null, v * 2, waitTime);
 
         }, waitTime);
     }
