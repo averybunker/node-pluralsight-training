@@ -1,0 +1,27 @@
+/**
+ * Created by averybunker on 10/16/16.
+ */
+
+var maxTime = 1000;
+
+//If input is even, double it
+//IF input is odd, error
+//(call take random amount of time < 1s)
+
+var evenDoubler = function(v, callback) {
+    var waitTime = Math.floor(Math.random()*(maxTime+1));
+    if (v%2){
+        setTimeout(function() {
+            callback(new Error("Odd input"));
+        }, waitTime);
+    } else {
+        setTimeout(function () {
+            callback(null, v*2, waitTime);
+
+        }, waitTime);
+    }
+};
+
+module.exports.eventDoubler = evenDoubler;
+
+module.exports.foo = "bar";
