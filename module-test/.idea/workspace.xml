@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9636a682-12bb-4366-af9a-e8d46c283e5c" name="Default" comment="">
+    <list default="true" id="9636a682-12bb-4366-af9a-e8d46c283e5c" name="Default" comment="WebStorm Update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mathfun.js" afterPath="$PROJECT_DIR$/mathfun.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/use-math-fun.js" afterPath="$PROJECT_DIR$/use-math-fun.js" />
     </list>
     <ignored path="module-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -199,12 +197,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476664392395</updated>
-      <workItem from="1476664393575" duration="2043000" />
+      <workItem from="1476664393575" duration="2114000" />
     </task>
+    <task id="LOCAL-00001" summary="WebStorm Update">
+      <created>1476667092352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476667092352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2043000" />
+    <option name="totallyTimeSpent" value="2114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="832" extended-state="0" />
@@ -238,6 +244,14 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="WebStorm Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebStorm Update" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
